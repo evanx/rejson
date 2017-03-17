@@ -1,0 +1,32 @@
+{
+    "name": "rejson",
+    "version": "0.1.0",
+    "description": "Web server for Redis JSON data.",
+    "main": "lib/index.js",
+    "scripts": {
+        "lint": "eslint --cache src",
+        "test": "bin/test.sh",
+        "start": "node7 lib/index.js"
+    },
+    "author": {
+        "url": "https://twitter.com/@evanxsummers"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "map-properties": "^0.1.2",
+        "node-fetch": "^1.6.3",
+        "redis-koa-app": "^0.8.7",
+        "render-html-rpf": "^0.1.2"
+    },
+    "devDependencies": {
+        "eslint": "^3.12.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/evanx/rejson.git"
+    },
+    "bugs": {
+        "url": "https://github.com/evanx/rejson/issues"
+    },
+    "homepage": "https://github.com/evanx/rejson#readme"
+}
