@@ -15,7 +15,7 @@
     "dependencies": {
         "lodash": "^4.17.14",
         "map-properties": "^0.1.2",
-        "node-fetch": "^1.6.3",
+        "node-fetch": "^3.1.1",
         "redis-koa-app": "^0.8.7",
         "render-html-rpf": "^0.1.2"
     },
